@@ -47,19 +47,19 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('🤴 BOT ONWER 🤴', url='https://t.me/shiva123kph'),
+        InlineKeyboardButton('⚙️ BOT SUPPORT ⚙️', url ='https://t.me/mallumoviesstorage')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('🍿 JOIN OUR GROUP 🍿', url='https://t.me/mallumoviesp')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('💘 JOIN CHANEL 💘', url='https://t.me/mallumovies30')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/3535f7de6783e2f758bc1.jpg",
+        photo="https://telegra.ph/file/fd0065b702513b1a10820.jpg",
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
